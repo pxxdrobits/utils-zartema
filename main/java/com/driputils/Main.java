@@ -33,8 +33,6 @@ public class Main extends Plugin {
         loadConfig();
         
         getLogger().info("DripUtils ativado com sucesso!");
-        
-        // Registra os comandos
         getProxy().getPluginManager().registerCommand(this, new ReportCommand());
         getProxy().getPluginManager().registerCommand(this, new GoCommand());
     }
@@ -164,7 +162,6 @@ public class Main extends Plugin {
         }
     }
 
-    // Comando de Go (Teleporte)
     public class GoCommand extends Command implements TabExecutor {
         
         public GoCommand() {
@@ -235,3 +232,4 @@ public class Main extends Plugin {
         }
     }
 }
+
