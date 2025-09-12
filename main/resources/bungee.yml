@@ -1,0 +1,5 @@
+name: DripUtils
+version: 1.0
+main: com.driputils.Main
+author: DripUtils
+description: Plugin de BungeeCord com comandos de report e teleporte

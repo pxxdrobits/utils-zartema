@@ -1,0 +1,23 @@
+report:
+  cooldown: 30
+  
+  messages:
+    success: "&aReport enviado com sucesso para a equipe!"
+    cooldown: "&cAguarde {time} segundos antes de fazer outro report!"
+    self-report: "&cVocê não pode se reportar!"
+    player-not-found: "&cJogador não encontrado!"
+    usage: "&cUso: /report <jogador> <motivo>"
+
+go:
+  teleport-delay: 1
+  
+  messages:
+    teleporting: "&aTeleportando para {player}..."
+    already-connected: "&cVocê já está conectado!"
+    player-not-found: "&cJogador não encontrado!"
+    usage: "&cUso: /go <jogador>"
+
+general:
+  prefix: "&8[&bDripUtils&8] "
+  console-logging: true
+  debug: false

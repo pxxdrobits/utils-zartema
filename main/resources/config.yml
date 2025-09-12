@@ -1,0 +1,38 @@
+# DripUtils Configuration
+# Configurações do plugin DripUtils
+
+# Configurações do comando Report
+report:
+  # Tempo de cooldown entre reports (em segundos)
+  cooldown: 30
+  
+  # Mensagens personalizáveis
+  messages:
+    success: "&aReport enviado com sucesso para a equipe!"
+    cooldown: "&cAguarde {time} segundos antes de fazer outro report!"
+    self-report: "&cVocê não pode se reportar!"
+    player-not-found: "&cJogador não encontrado!"
+    usage: "&cUso: /report <jogador> <motivo>"
+
+# Configurações do comando Go
+go:
+  # Tempo de delay para teleporte (em segundos)
+  teleport-delay: 1
+  
+  # Mensagens personalizáveis
+  messages:
+    teleporting: "&aTeleportando para {player}..."
+    already-connected: "&cVocê já está conectado!"
+    player-not-found: "&cJogador não encontrado!"
+    usage: "&cUso: /go <jogador>"
+
+# Configurações gerais
+general:
+  # Prefixo das mensagens
+  prefix: "&8[&bDripUtils&8] "
+  
+  # Log no console
+  console-logging: true
+  
+  # Debug mode
+  debug: false
