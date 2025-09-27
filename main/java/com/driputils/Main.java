@@ -201,7 +201,6 @@ public class Main extends Plugin {
             int delay = getInt("go.teleport-delay", 1);
             ProxyServer.getInstance().getScheduler().schedule(Main.this, () -> {
                 if (teleporter.isConnected() && target.isConnected()) {
-                    // Envia comando de teleporte para o servidor
                     targetServer.ping((result, error) -> {
                         if (error == null) {
                             target.getServer().sendData("DripUtils", ("tp " + teleporter.getName() + " " + target.getName()).getBytes());
@@ -232,4 +231,5 @@ public class Main extends Plugin {
         }
     }
 }
+
 
